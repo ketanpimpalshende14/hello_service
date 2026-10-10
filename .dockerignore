@@ -1,0 +1,12 @@
+.git
+.github
+.gradle
+.idea
+.vscode
+build/tmp
+build/classes
+build/generated
+build/reports
+build/test-results
+**/*.md
+qodana.yaml
