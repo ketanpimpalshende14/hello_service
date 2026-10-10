@@ -3,10 +3,6 @@
 .gradle
 .idea
 .vscode
-build/tmp
-build/classes
-build/generated
-build/reports
-build/test-results
+build
 **/*.md
 qodana.yaml
