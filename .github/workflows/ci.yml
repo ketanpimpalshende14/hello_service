@@ -20,9 +20,9 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-          cache: maven
+          cache: gradle
 
       - name: Build and Test
         run: |
-          chmod +x mvnw
-          ./mvnw --batch-mode clean verify
+          chmod +x gradlew
+          ./gradlew --no-daemon clean test build
